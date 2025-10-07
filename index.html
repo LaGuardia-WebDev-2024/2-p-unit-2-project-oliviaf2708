@@ -6,11 +6,11 @@ Requirements
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include Border Radius CSS Property 
+[ YES ] Feature 1 - Include Border Radius CSS Property 
 [ no ] Feature 2 - Include a Static Background Image
 [ no ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
-[ no ] Feature 5 - Include Border CSS Property 
+[ YES ] Feature 5 - Include Border CSS Property 
 -->
     
 <!DOCTYPE HTML>
@@ -19,25 +19,59 @@ Select ONE Additional Feature to Add
         <meta charset="utf-8">
         <title>Unit 2 Project</title>
         <style>
-            
+
+           h2 {
+            color: saddlebrown;
+           }
+
+           h1 {
+            color: brown;
+           }
+
+           body {
+            background-color: rgb(241, 217, 184);
+           }
+
+           #champs {
+            color: rgb(194, 119, 66);
+           }
+
+           #dome {
+            color: rgb(129, 70, 70);
+           }
+
+           #duck {
+            color: rgb(80, 31, 31);
+           }
+
+           #neighbor {
+            color: rgb(180, 107, 73);
+           }
+
+           .place {
+            color: rgb(255, 117, 138);
+            background-color: rgb(238, 211, 176);
+           }
+
+           img {
+            border-radius: 30px;
+            border: 4px solid;
+           }
+
         </style>
     </head>
     <body>
 
         <h1>Best places to go in Paris</h1> 
 
-        <p>Paris is beautiful, but the city is huge, the streets can be<br>
-           confusing, and you can get lost if you don't speek french. Here<br> 
-           are just some places to put on your list if you ever find youself<br> 
-           visiting!</p>
+        <p>Paris is beautiful, but the city is huge, the streets can be confusing, and you can get lost if you don't speek french. Here<br> 
+           are just some places to put on your list if you ever find youself visiting!</p>
 
         <h2>Le Marais</h2>
 
-        <p>This is a neighberhood in the 4th arrondissement, or South Marais.<br>
-           There are lots of galleries, stores, and delicious restaurants<br>
-           which are perfect for a nice diner. This neighberhood also serves as<br>
-           a good area to find your hotel. There are countless beautiful squares<br>
-           and parks that are convenient to be located near.<br>
+        <p id="neighbor">This is a neighberhood in the 4th arrondissement, or <strong class="place">South Marais.</strong> There are lots of galleries, stores, and delicious<br> 
+          restaurants which are perfect for a nice diner. This neighberhood also serves as a good area to find your hotel. There<br> 
+          are countless beautiful squares and parks that are convenient to be located near.<br>
 
            <img src="https://www.aparisguide.com/lemarais/ru-de-tresor.jpg" width="200">
            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6e/d2/ba.jpg" width="200">
@@ -45,10 +79,8 @@ Select ONE Additional Feature to Add
 
         <h2>Avenue des Champs-Élysées</h2>
 
-        <p>Champs-Élysées is the stret leading up to the Arch de Triumph.<br> 
-           There are tons of stores to go into, ranging from Chanel to Levi's.<br>
-           Along the walk, you could also see a mix of theatres and cafes. The<br>
-           famous Ladurée Bakery can also be spotted, which have the best<br>
+        <p id="champs"><strong class="place">Champs-Élysées</strong> is the stret leading up to the Arch de Triumph. There are tons of stores to go into, ranging from Chanel<br>
+           Along the walk, you could also see a mix of theatres and cafes. The famous Ladurée Bakery can also be spotted, which have the best<br>
            macarons, in my opinion.<br>
         
            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Avenue_des_Champs-%C3%89lys%C3%A9es_July_24%2C_2009_N1.jpg" width="200">
@@ -57,10 +89,8 @@ Select ONE Additional Feature to Add
 
         <h2>Dôme de Paris</h2>
 
-        <p>The Dôme de Paris is an indoor arena located in the 15th<br>
-           arrondissement. It is the largest venue in Paris, with shows<br> 
-           ranging from concerts and plays, to stand up comedy shows and<br>
-           the ballet. Autunm and Spring are perfect times to go and see<br> 
+        <p id="dome"><strong class="place">The Dôme de Paris</strong> is an indoor arena located in the 15th arrondissement. It is the largest venue in Paris, with shows<br> 
+           ranging from concerts and plays, to stand up comedy shows and the ballet. Autunm and Spring are perfect times to go and see<br> 
            some fantasic performances here.<br>
         
            <img src="https://arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/TJZUQ55UEGVLTYTTPAPU4TZYU4.jpg" width="200">
@@ -69,11 +99,14 @@ Select ONE Additional Feature to Add
 
         <h2>La Rôtisserie d'Argent</h2>
 
-        <p>This is a fantastic restaurant located in the Latin Quarter.<br>
-           It serves upscale French cuisie and is especially famous for<br>
-           thier most popular dish, the pressed duck. The food is delicious<br>
-           and the service is wonderful, deffinetly a great spot to stop<br>
-           during your trip.</p>
+        <p id="duck">This is a fantastic restaurant located in the <strong class="place">Latin Quarter.</strong> It serves upscale French cuisie and is especially famous for<br>
+           thier most popular dish, the pressed duck. The food is delicious and the service is wonderful, deffinetly a great spot to stop<br>
+           during your trip.<br>
+
+           <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/c0/3a/82/la-rotisserie-d-argent.jpg?w=900&h=500&s=1" width="200">
+           <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/c0/3a/a7/veranda.jpg?w=900&h=500&s=1" width="200">
+         
+         </p>
 
     </body>
 </html>
